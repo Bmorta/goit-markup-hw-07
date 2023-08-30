@@ -664,6 +664,7 @@ body
 .team-social-list {
     display: flex;
     justify-content: center;
+    
     gap: 24px;
     margin-top: 8px;
 }
@@ -948,7 +949,7 @@ body
 }
 
 .footer-socials {
-    margin-left: 120px;
+    /* margin-left: 120px; */
 }
 
 .footer-socials-text {
@@ -998,8 +999,8 @@ body
 }
 
 .footer-container form {
-    display: flex;
-    align-items: flex-end;
+    /* display: flex; */
+    /* align-items: flex-end; */
 }
 
 .footer-subscription-form {
@@ -1069,6 +1070,8 @@ body
 .footer-subscription-input
 {
     color: var(--whitecolor);
+    display: flex;
+    flex-shrink: 0;
     background-color: transparent;
     font-size: 12px;
     font-weight: 400;
@@ -1123,6 +1126,8 @@ body
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 } */
+height: 40px;
+font-weight: 500;
   border: none;
   border-radius: 4px;
   background: var(--iriscolor);
@@ -1151,6 +1156,7 @@ body
 .footer-form-svgsubscribe {
     width: 24px;
     height: 24px;
+    fill: currentColor;
 }
 
 .footer-form-button:hover {
